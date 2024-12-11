@@ -41,8 +41,8 @@ SSH（Secure Shell）是一种用于安全登录到远程计算机和执行命�
 首先要确保设置了git的用户名与邮箱
 
 ```shell
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+git config --global user.name "supermarkli"
+git config --global user.email "12110504@mail.sustech.edu.cn"
 ```
 
 通过以下命令验证配置是否成功
@@ -55,7 +55,7 @@ git config --global user.email
 生成ssh密钥
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096 -C "12110504@mail.sustech.edu.cn"
 ```
 
 启动ssh代理（windows可以用 Git Bash）
